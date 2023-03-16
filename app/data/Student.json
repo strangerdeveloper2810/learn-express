@@ -1,0 +1,10 @@
+[
+  { "id": 123, "fullName": "Stranger", "age": 18, "numberClass": 1 },
+  {
+    "id": 456,
+    "fullName": "Developer",
+    "age": 20,
+    "numberClass": 12
+  },
+  { "id": 789, "fullName": "Engineer", "age": 25, "numberClass": 10 }
+]
