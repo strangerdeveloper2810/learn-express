@@ -1,4 +1,4 @@
-const studentList = require("../data/Student.json");
+let studentList = require("../data/Student.json");
 
 // Get list students
 const getStudentList = (req, res) => {
@@ -26,7 +26,7 @@ const addingStudent = (req, res) => {
   };
 
   studentList = [...studentList, student];
-  res.status(201).send(student);
+  return res.status(200).send(student);
 };
 
 // Update student
@@ -43,7 +43,7 @@ const updateStudent = (req, res) => {
 
     res.status(200).send(updatedStudent);
   } else {
-    res.status(404).send("Có cái lồn mà update được nhé");
+    res.status(404).send("Có cái qq mà update được nhé");
   }
 };
 
